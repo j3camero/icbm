@@ -32,6 +32,21 @@ app.get('/recentmessages', (req, res) => {
     });
 });
 
+app.get('/meshcore/newdirectmessage', (req, res) => {
+    messageQueue.push(req.query);
+    ThrowOutOldMessages();
+    res.json({
+	message: 'success',
+    });
+});
+
+app.get('/meshcore/recentdirectmessages', (req, res) => {
+    ThrowOutOldMessages();
+    res.json({
+	recentMessages: messageQueue,
+    });
+});
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
