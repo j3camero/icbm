@@ -1,0 +1,19 @@
+{
+  "name": "mthiffau",
+  "version": "1.0.0",
+  "description": "Routes direct messages from meshcore across the internet for make reliability.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j3camero/mthiffau.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j3camero/mthiffau/issues"
+  },
+  "homepage": "https://github.com/j3camero/mthiffau#readme"
+}
