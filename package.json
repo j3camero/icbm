@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/j3camero/mthiffau/issues"
   },
-  "homepage": "https://github.com/j3camero/mthiffau#readme"
+  "homepage": "https://github.com/j3camero/mthiffau#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
